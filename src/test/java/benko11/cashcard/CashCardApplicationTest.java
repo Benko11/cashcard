@@ -13,7 +13,7 @@ import com.jayway.jsonpath.JsonPath;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class CashCardApplicationTests {
+public class CashCardApplicationTest {
     @Autowired
     TestRestTemplate restTemplate;
 
